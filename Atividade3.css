@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+a.adidas {
+  display: inline-block;
+  height: 250px;
+  position: relative;
+  width: 250px;
+}
+
+a.adidas:hover::after {
+  visibility: visible
+}
+
+a.adidas img {
+  width: 100%
+}
+
+a.adidas::after {
+  background: url("adidas-colorido.jpg") no-repeat;
+  background-position: 45% 55%;
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+  width: 100%
+}
+
+a.mastercard {
+  display: inline-block;
+  height: 200px;
+  position: relative;
+  width: 200px;
+}
+
+a.mastercard:hover::after {
+  visibility: visible
+}
+
+a.mastercard img {
+  width: 100%
+}
+
+a.mastercard::after {
+  background: url("mastercard-2.jpg") no-repeat;
+  background-position: 45% 55%;
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+  width: 100%
+}
+
